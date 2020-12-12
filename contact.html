@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Carrie Renee Smith</title>
+      <meta charset="utf-8"/>
+      <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    </head>
+
+    <header>
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Logo" width="50" />
+        </a>
+      </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <body>
+      <main>
+        <div class="container">
+          <h1>Contact Me</h1>
+          <p>Please complete the form below and I will contact you as soon as possible</p>
+
+          <form class="contactform" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+            <div class="firstname input-section">
+              <label for="firstname" class="label_input_wrap">First Name: </label>
+              <input type="text" name="req_firstname" id="firstname" placeholder="......."/>
+            </div>
+
+            <div class="lastname input-section">
+              <label for="lastname" class="label_input_wrap">Last Name: </label>
+              <input type="text" name="req_lastname" id="lastname" placeholder="......."/>
+            </div>
+
+            <div class="email input-section">
+              <label for="email" class="label_input_wrap">Email: </label>
+              <input type="email" name="email" id="email" placeholder=".......@example.com"/>
+            </div>
+
+            <div class="phone input-section">
+              <label for="phone" class="label_input_wrap">Phone: </label>
+              <input type="tel" name="phone" id="phone" placeholder="555-555-5555"/>
+            </div>
+
+            <div class="comments input-section">
+              <label for="comments" class="label_input_wrap">Comments: </label>
+              <textarea name="comments" id="comments" cols="65" rows="15" placeholder="Type your message here"></textarea>
+            </div>
+
+            <div class="submit">
+              <input type="submit" value="Submit!"/>
+            </div>
+          </form>
+      </div>
+    </main>
+    </body>
+
+  </html>

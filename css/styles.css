@@ -1,0 +1,57 @@
+/*--------------------------------------------*
+Universal Styling
+/*--------------------------------------------*/
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+@font-face{
+font-family: "montserrat"
+src: url('../fonts/Montserrat.ttf') format('truetype');
+}
+
+@font-face{
+font-family: "oliverblush"
+src: url('./fonts/oliverblush.ttf') format('truetype');
+}
+
+
+
+/*--------------------------------------------*
+Header Styling
+/*--------------------------------------------*/
+header {
+    background: white;
+    padding: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo-container,
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+body {
+  background-color: #BCB5C5;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'oliverblush';
+
+}
