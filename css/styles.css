@@ -8,15 +8,14 @@ Universal Styling
 }
 
 @font-face{
-font-family: "montserrat"
-src: url('../fonts/Montserrat.ttf') format('truetype');
+font-family: "oliverblush";
+src: url('../fonts/oliverblush.ttf') format('truetype');
 }
 
 @font-face{
-font-family: "oliverblush"
-src: url('./fonts/oliverblush.ttf') format('truetype');
+font-family: "montserrat";
+src: url('../fonts/Montserrat.ttf') format('truetype');
 }
-
 
 
 /*--------------------------------------------*
@@ -25,7 +24,10 @@ Header Styling
 header {
     background: white;
     padding: 20px;
+    height: 60px;
 }
+
+
 
 header nav ul li {
     display: inline;
@@ -38,7 +40,13 @@ header nav a {
     color:black;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: 'montserrat';
 }
+
+header nav a:hover {
+  color:#BCB5C5;
+}
+
 
 .logo-container,
 header nav {
@@ -50,8 +58,98 @@ body {
   background-color: #BCB5C5;
 }
 
+.mainheading {
+  margin: 0px 200px;
+  padding: 350px;
+}
+
 h1 {
   text-align: center;
+  font-size: 100px;
   font-family: 'oliverblush';
+  padding: 350px;
+  text-shadow: -1px -1px #FFFFFF;
+}
+
+
+ {
+  animation-name: animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+p {
+  font-family: 'montserrat'
+  font-size: 16px;
+}
+
+/*=====================
+  Contact form
+=========================*/
+
+.contactform {
+  background:#212023;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 4px;
+  color:white;
+  font-family: montserrat;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.label_input_wrap {
+  display: block;
 
 }
+
+
+
+.submit input {
+  background-color:white;
+  color:black;
+  margin: 20px;
+  padding: 5px 20px;
+  display: inline;
+}
+
+.submit input:hover {
+  background-color: darkgrey;
+}
+
+.input-section {
+  padding:10px;
+  border-radius: 3px;
+
+}
+
+textarea {
+  font-family:montserrat;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto 100px;
+  text-align: center;
+}
+
+/*=====================
+  Footer
+=========================*/
+footer {
+    background: #212023;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'montserrat'
+}
+
+@keyframes animation {
+  from {
+    transform:translateY(0px);
+}
+
+  to {
+    transform:translateY(700px);
+  }
