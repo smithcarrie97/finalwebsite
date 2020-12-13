@@ -117,24 +117,38 @@ h1 {
   opacity:20%;
 }
 
+span.lb-caption {
+  font-family: montserrat;
+  font-size: 20px;
+}
 
+span.lb-number {
+  visibility: hidden;
+}
+
+figcaption {
+  font-family: montserrat;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 250px;
+}
 
 
 /*=====================
   Contact form
 =========================*/
 
-h2 {
+.contactpage:first-line {
   font-family: oliverblush;
   font-size: 50px;
   text-align: center;
-  padding: 20px;
 }
 
 .contactpage {
   font-family: montserrat;
   font-size: 16px;
   text-align: center;
+  padding: 50px 0 5px 0;
 }
 
 
