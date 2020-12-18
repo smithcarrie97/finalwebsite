@@ -56,9 +56,13 @@
 
   .container {
     max-width: 900px;
-    margin: 50px auto 100px;
+    margin: 300px auto 100px;
     text-align: center;
+    font-family: montserrat;
+    font-size: 16px;
+    text-decoration: none;
   }
+
 
 footer  {
       background: #212023;
@@ -67,11 +71,17 @@ footer  {
       padding: 20px 0;
       font-family: 'montserrat';
       width:100%;
+      margin-top: 500px;
   }
 
 
 
 </style>
+
+<head>
+  <link rel="icon" href="http://www.carriereneesmith.com/favicon.ico">
+</head>
+
 
 <header>
   <div class="logo-container">
@@ -103,7 +113,7 @@ footer  {
 	?>
 	</ul>
 
-	<p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+	<p><a href="#" onClick="history.go(-1)">Back to form</a></p>
 </div>
 
 <footer>

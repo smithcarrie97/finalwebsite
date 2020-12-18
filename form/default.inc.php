@@ -54,6 +54,14 @@
     width: 100%;
   }
 
+  .container {
+    max-width: 900px;
+    margin: 50px auto 100px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 16px;
+  }
+
   footer {
       background: #212023;
       color: white;

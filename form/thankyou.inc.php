@@ -11,59 +11,74 @@
   src: url('../fonts/Montserrat.ttf') format('truetype');
   }
 
-
   body {
     background-color:#BCB5C5;
-    header {
-        background: white;
-        padding: 20px;
-        height: 60px;
-        position: fixed;
-        width: 100%;
-        z-index: 9999;
-    }
+  }
 
-
-    header nav ul li {
-        display: inline;
-        padding: 0 15px;
-    }
-
-    header nav a {
-        text-decoration: none;
-        background-color: white;
-        color:black;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-family: 'montserrat';
-    }
-
-    header nav a:hover {
-      color:#BCB5C5;
-    }
-
-
-    .logo-container,
-    header nav {
-        display: inline-block;
-        vertical-align: middle;
-      }
-
-    body {
-      position:absolute;
+  header {
+      background: white;
+      padding: 20px;
+      height: 60px;
+      position: fixed;
       width: 100%;
+      z-index: 9999;
+  }
+
+  header nav ul li {
+      display: inline;
+      padding: 0 15px;
+  }
+
+  header nav a {
+      text-decoration: none;
+      background-color: white;
+      color:black;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'montserrat';
+  }
+
+  header nav a:hover {
+    color:#BCB5C5;
+  }
+
+  .logo-container,
+  header nav {
+      display: inline-block;
+      vertical-align: middle;
     }
 
-    footer {
+  body {
+    position:absolute;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 300px auto 100px;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 16px;
+  }
+
+
+footer  {
       background: #212023;
       color: white;
       text-align: center;
       padding: 20px 0;
       font-family: 'montserrat';
       width:100%;
+      margin-top: 500px;
   }
 
+
+
 </style>
+
+<head>
+  <link rel="icon" href="http://www.carriereneesmith.com/favicon.ico">
+</head>
 
 <header>
   <div class="logo-container">
